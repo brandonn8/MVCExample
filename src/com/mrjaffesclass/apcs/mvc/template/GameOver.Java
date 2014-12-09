@@ -17,7 +17,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author barry
+ * @author Trevor 
  */
 public class GameOver extends JFrame implements MessageHandler {
 
