@@ -26,7 +26,7 @@ import javax.swing.JSeparator;
 public class View extends JFrame implements MessageHandler {
 
     private int numOfButtons = 8;
-    private final int BUTTON_SIZE = 30;
+    private final int BUTTON_SIZE = 80;
     private final int BOARD_SIZE = BUTTON_SIZE * numOfButtons;
     private Messenger messenger;
     private Square[][] squares = new Square[numOfButtons][numOfButtons];
