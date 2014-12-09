@@ -17,7 +17,7 @@ import javax.swing.JLabel;
 
 /**
  *
- * @author Trevor 
+ * @author Brandon
  */
 public class GameOver extends JFrame implements MessageHandler {
 
@@ -56,9 +56,9 @@ public class GameOver extends JFrame implements MessageHandler {
 
     private void appear(boolean state){
         if(state)
-            winorlose.setText("Good Job!!! Having a score of : "+score);
+            winorlose.setText("Congrats Good Job!!! You scored : "+score);
         else
-            winorlose.setText("Nice Try!!! Having a score of : "+score);
+            winorlose.setText("Nice Even Close!!! You scored : "+score);
         setVisible(true);
     }
     private void setScore(int s){
